@@ -1,9 +1,11 @@
-import './App.css';
+import AllRoutes from './Pages/AllRoutes';
+import Header from './Component/Layout/Header';
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <Header />
+      <AllRoutes />
     </div>
-  );
+  )
 }
-export default App;
+export default App
