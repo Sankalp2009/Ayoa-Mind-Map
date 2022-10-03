@@ -1,0 +1,9 @@
+// action creators related to auth state;
+export const ACTION_TYPE = {
+    LOGIN_REQUEST: "LOGIN_REQUEST",
+    LOGIN_SUCCESS: "LOGIN_SUCCESS",
+    LOGIN_FAILURE: "LOGIN_FAILURE",
+    SIGN_UP_REQUEST: "SIGN_UP_REQUEST",
+    SIGN_UP_SUCCESS: "SIGN_UP_SUCCESS",
+    SIGN_UP_FAILURE: "SIGN_UP_FAILURE"
+  };
